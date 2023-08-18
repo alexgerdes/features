@@ -1,13 +1,13 @@
 
-# My Favorite Color (color)
+# Haskell Development (haskell)
 
-A feature to remind you of your favorite color
+Tools and libs for Haskell development in Intro FP.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/alexgerdes/features/color:1": {}
+    "ghcr.io/alexgerdes/features/haskell:0": {}
 }
 ```
 
@@ -15,10 +15,10 @@ A feature to remind you of your favorite color
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| favorite | Choose your favorite color. | string | red |
+| ghc | Choose your GHC version. | string | recommended |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/alexgerdes/features/blob/main/src/color/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/alexgerdes/features/blob/main/src/haskell/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
