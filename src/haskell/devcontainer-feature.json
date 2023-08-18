@@ -1,7 +1,7 @@
 {
     "name": "Haskell Development",
     "id": "haskell",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Tools and libs for Haskell development in Intro FP.",
     "options": {
         "ghc": {
