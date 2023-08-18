@@ -7,7 +7,3 @@ sudo apt-get install -y --no-install-recommends \
     zlib1g-dev bash sudo procps lsb-release ca-certificates\
     build-essential libffi-dev libgmp-dev libgmp10 libncurses-dev\
     libncurses5 libtinfo5 libicu-dev libncurses-dev z3 locales locales-all
-
-
-# Install global packages.
-# cabal install --global --lib QuickCheck random ansi-terminal
