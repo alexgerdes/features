@@ -3,6 +3,8 @@ set -e
 
 echo "Activating feature 'haskell'"
 
+su vscode
+
 export PATH=~/.local/bin/:~/.cabal/bin:~/.ghcup/bin:$PATH
 export GHC_VERSION=${GHC}
 export BOOTSTRAP_HASKELL_NONINTERACTIVE=yes
