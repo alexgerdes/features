@@ -1,4 +1,5 @@
 {
+    "name": "Haskell Development",
     "id": "haskell",
     "version": "0.0.1",
     "description": "Tools and libs for Haskell development in Intro FP.",
