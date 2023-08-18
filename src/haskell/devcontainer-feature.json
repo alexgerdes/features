@@ -1,0 +1,20 @@
+{
+    "id": "haskell",
+    "version": "0.0.1",
+    "description": "Tools and libs for Haskell development in Intro FP.",
+    "options": {
+        "ghc": {
+            "type": "string",
+            "enum": [
+                "9.4.5",
+                "9.2.8",
+                "recommended"
+            ],
+            "default": "recommended",
+            "description": "Choose your GHC version."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
